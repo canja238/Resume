@@ -4,14 +4,7 @@
 body {
   margin: 0;
 }
-img {
 
-	width: 100px;
-	height: 100px;
-	border-radius:0 0 50px 0 ;
-	border:1px solid black;
-
-}
 
 .profile {
 	background-color: gray;
@@ -23,58 +16,52 @@ img {
 
 }
 
-.edu  {
-  background: red;
 
-  width: 33.33%;
-  padding: 50px;
-  height: 50%;
+.about{
+	 background: #B0E0E6;
+    overflow: hidden;
+	padding-left: 300px;
+	height: 50%;
+
+	
+}
+
+.edu  {
+  background: #ADD8E6;
+    overflow: hidden;
+	padding-left: 300px;
+	height: 50%;
+
 
 }
 
 .skills {
-  background: yellow;
-
-  width: 33.33%;
-  padding: 50px;
-  height: 50%
+  background: #E6E6FA;
+  overflow: hidden;
+  	padding-left: 300px;
+		height: 50%;
 }
 
 .cert {
-  background: green;  
-
-  width: 33.33%;
-  padding: 50px;
-  height: 50%
-  
+  background: #E0FFFF;  
+  overflow: hidden;
+  	padding-left: 300px;
+  	height: 50%;
 }
 .interest {
-	background: gray;
-
-  width: 33.33%;
-  padding: 50px;
-  height: 50%
-
+	background: #B0C4DE;
+  overflow: hidden;
+  	padding-left: 300px;
+	height: 50%;
 }
 
 h1{
-  text-shadow: 2px 2px 5px red;
+  text-shadow: 2px 2px 5px black;
+  color: white;
 	
 }
 
-input {
-  background-image: url("soft.jpg");
 
-}
-
-
-
-
-body {
-  margin: 0;
-}
-
-/* Style the header */
 .header {
 
     animation-name: example;
@@ -87,18 +74,17 @@ body {
 
 
 @keyframes example {
-  from {background-color: gray;}
-  to {background-color: white;}
+  from {background-color:#5F9EA0;}
+  to {background-color: #6495ED;}
 
 }
 
-/* Style the top navigation bar */
 .topnav {
   overflow: hidden;
   background-color: #333;
 }
 
-/* Style the topnav links */
+
 .topnav a {
   float: left;
   display: block;
@@ -108,13 +94,16 @@ body {
   text-decoration: none;
 }
 
-/* Change color on hover */
 .topnav a:hover {
   background-color: #ddd;
   color: black;
 }
 
 .follow {
-	
+	background: #D3D3D3;
+	overflow: hidden;
+	padding-left: 300px;
+	height: 50%; 
+
 }
 
